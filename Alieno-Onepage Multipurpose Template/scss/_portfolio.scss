@@ -1,0 +1,102 @@
+
+
+/*###################################################
+#####################################################
+                 4. PORTFOLIO SECTION
+#####################################################
+#####################################################*/
+
+.portfolio-filter { 
+    margin-bottom: 20px;
+}
+.cbp-l-filters-button .cbp-filter-item {
+    display: inline-block;
+    padding: 0 14px;
+    font: 600 11px 'Raleway', sans-serif;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #000;
+    margin: 0 3px 10px 3px;
+    background-color: transparent;
+    border: none;
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    -o-transition: all .2s;
+    -ms-transition: all .2s;
+    transition: all .2s;
+}
+.cbp-l-filters-button .cbp-filter-item:hover {
+    color: #000;
+    opacity: .7;
+}
+.cbp-l-filters-button .cbp-filter-item.cbp-filter-item-active {
+    background-color: transparent;
+    color: #000;
+    opacity: .7;
+}
+.cbp-caption-fadeIn .cbp-caption-activeWrap {
+    background-color: rgba(255, 255, 255, .8);
+    -webkit-transition: opacity .2s;
+    -moz-transition: opacity .2s;
+    -o-transition: opacity .2s;
+    -ms-transition: opacity .2s;
+    transition: opacity .2s;
+}
+.cbp-item .cbp-caption-activeWrap .wrap {
+    position: absolute;
+    text-align: center;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transition: all .3s;
+    opacity: .9;
+}
+.cbp-item .cbp-caption-activeWrap:hover .wrap {
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.cbp-item .cbp-caption-activeWrap .wrap h3{
+    line-height: 1.4;
+}
+.cbp-caption-fadeIn .cbp-caption .cbp-caption-activeWrap.video {
+    opacity: 1;
+    background-color: transparent;
+}
+.cbp-item .cbp-caption-activeWrap.video .wrap{
+    transform: translateY(-50%);
+    opacity: 1;
+}
+.cbp-caption-activeWrap.video .wrap i {
+    text-shadow: 0px 0px 20px rgba(0, 0, 0, .15);
+    -webkit-transition: opacity .3s;
+    -moz-transition: opacity .3s;
+    -o-transition: opacity .3s;
+    -ms-transition: opacity .3s;
+    transition: opacity .3s;
+    opacity: 1;
+}
+.cbp-caption-activeWrap.video .wrap i:hover {
+    opacity: .8;
+}
+.cbp-item .cbp-caption .cbp-caption-activeWrap.video .wrap i:hover {
+    padding-bottom: 25px;
+}
+.cbp-lightbox img {
+    -webkit-transition: transform .4s;
+    -moz-transition: transform .4s;
+    -o-transition: transform .4s;
+    -ms-transition: transform .4s;
+    transition: transform .4s;
+}
+.cbp-lightbox:hover img {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+

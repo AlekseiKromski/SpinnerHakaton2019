@@ -1,0 +1,18 @@
+
+
+/*###################################################
+#####################################################
+                 7. TESTIMONIALS SECTION
+#####################################################
+#####################################################*/
+
+.testimonial-body h6 {
+    font: 600 11px/.28 'Raleway', sans-serif;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+@media ( max-width: 1199px ) {
+    .testimonial-body h6 {
+        font: 600 9.5px/0 'Raleway', sans-serif;
+    }
+}

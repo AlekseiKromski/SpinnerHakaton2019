@@ -1,0 +1,36 @@
+
+/*###################################################
+#####################################################
+                 5. QUOTE SECTION
+#####################################################
+#####################################################*/
+
+.quote-body {
+    display: inline-block;
+}
+.quote-body h2 {
+    line-height: 1.13;
+}
+.quote-body {
+    margin: 0;
+}
+.quote-body h2 em:first-child {
+    padding-right: 15px;
+}
+@media ( max-width: 768px ) {
+    .quote-body h2 {
+        font-weight: 700;
+        line-height: 1.2;
+        font-size: 25px;
+        letter-spacing: .5px;
+    }
+}
+@media ( max-width: 480px ) {
+    .quote-body h2 {
+        padding-bottom: 15px;
+    }
+    .quote-body h2 em {
+        display: none;
+    }
+}
+

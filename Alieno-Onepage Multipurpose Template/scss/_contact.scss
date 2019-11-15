@@ -1,0 +1,120 @@
+
+/*###################################################
+#####################################################
+                 8. CONTACT SECTION
+#####################################################
+#####################################################*/
+
+/*---------- Contact Number ----------*/  
+.info-contact h6 {
+    display: inline-block;
+    padding: 0 15px;
+}
+.x1.phone { font-size: .78em }
+@media (min-width: 481px ) {
+    .info-contact i.phone {
+        position: relative;
+        top: 4px;
+    }
+}
+@media (max-width: 480px ) {
+    .info-contact h2 {
+        font-weight: 700;
+        line-height: 1.2;
+        font-size: 25px;
+        letter-spacing: -1.5px;
+    }
+    .info-contact h6 {
+        margin: 0;
+        display: block;
+        padding: 5px 0;
+    }
+}
+
+/*---------- Contact Form ----------*/  
+.form-control {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: 54px;
+    margin: 0;
+    font: 300 12px 'Raleway', sans-serif;
+    letter-spacing: .2px;
+    color: #9d9d9d;
+    background-color: rgba(0, 0, 0, .05);
+    border: none;
+    box-shadow: none;
+    border-radius: 0px;
+    outline: none;
+    padding: 15px 20px;
+    -webkit-transition: background-color .3s;
+    -moz-transition: background-color .3s;
+    -o-transition: background-color .3s;
+    -ms-transition: background-color .3s;
+    transition: background-color .3s;
+}
+.form-control:focus,
+.form-control:hover {
+    background-color: rgba(0, 0, 0, .08);
+    box-shadow: none;
+}
+.form-group .btn {
+    margin-left: 0;
+}
+.form-group:first-child {
+    float: left;
+    width: 40%;
+}
+.form-group:nth-child(2) {
+    float: right;
+    width: 55%;
+}
+@media ( max-width: 480px ) {
+    .form-group:first-child {
+        width: 100%;
+        float: none;
+    }
+    .form-group:nth-child(2) {
+        width: 100%;
+        float: none;
+    }    
+}
+.form-horizontal .form-group {
+    margin-right: auto;
+    margin-left: auto;
+}
+.panel-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font: 300 20px/32px 'Raleway', sans-serif;
+    color: inherit;
+    text-transform: none;
+    letter-spacing: normal;
+}
+.contact-form .form-section .message .alert {
+    border: none;
+    border-radius: 0px;
+}
+.contact-form .form-section .message .alert p {
+    font: 300 12px 'Raleway', sans-serif;
+    letter-spacing: .2px;
+}
+.contact-form .form-section .message .panel {
+    border-radius: 0px;
+    box-shadow: none;
+}
+.contact-form .form-section .message .panel .panel-heading h3 {
+    font: 300 16px/1.65em 'Raleway', sans-serif;
+}
+.contact-form .form-section .message .panel .panel-body ul li {
+    font: 300 12px 'Raleway', sans-serif;
+    letter-spacing: .2px;
+}
+//success message
+.success {
+    background: #50B948;
+    color: #fff;
+    font-weight: 700;
+    padding: 20px;
+    text-align: center;
+  }
