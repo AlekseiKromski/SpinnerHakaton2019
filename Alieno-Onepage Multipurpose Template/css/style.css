@@ -153,7 +153,7 @@ h6 {
 }
 
 p {
-  font: 300 16px/1.65em 'Bebas Neue', cursive;
+  font: 300 16px/1.65em 'Orbitron', cursive;
   color: #ff9900;
 }
 
@@ -1879,11 +1879,11 @@ ul.list-none {
 }
 
 .service_bg_2 {
-  background-image: url(../img/380x220.jpg);
+  background-image: url(../img/380x220_2.jpg);
 }
 
 .service_bg_3 {
-  background-image: url(../img/380x220.jpg);
+  background-image: url(../img/380x220_3.jpg);
 }
 
 /*////////////////////////////////////////
