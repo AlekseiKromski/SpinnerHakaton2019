@@ -74,11 +74,11 @@ h6 {
 }
 
 h1 {
-  font-size: 185px;
-  line-height: .95;
-  font-weight: 700;
-  letter-spacing: -7.5px;
-  margin: 5px 0;
+  font-size: 80px;
+    line-height: .95;
+    font-weight: 700;
+    /* letter-spacing: -7.5px; */
+    margin: 5px 0;
 }
 
 @media (max-width: 1199px) {
@@ -153,7 +153,8 @@ h6 {
 }
 
 p {
-  font: 300 16px/1.65em 'Raleway', sans-serif;
+  font: 300 16px/1.65em 'Bebas Neue', cursive;
+  color: #ff9900;
 }
 
 .subheading,
@@ -1084,7 +1085,7 @@ h5.subheading-black {
 }
 
 .bg-primary {
-  background-color: #0db8ca;
+  background-color: #ff9900	;
 }
 
 .bg-gray {
@@ -1818,6 +1819,11 @@ strong {
   font-weight: 600;
 }
 
+.opinion_name{
+font-family: Georgia, 'Times New Roman', Times, serif;
+color: white;
+text-align: center;
+}
 .inline {
   display: inline;
 }
@@ -1942,7 +1948,8 @@ ul.list-none {
   height: 100px;
   border-left: 2px solid red;
   border-radius: 50%;
-  animation: round1 1.3s linear infinite, colorAnimation 12s ease-out  infinite;
+  animation: round1 1.3s linear infinite,
+ colorAnimation 12s ease-out  infinite;
 }
 
 @keyframes round1 {
@@ -2885,7 +2892,6 @@ ul.list-none {
 .hero-fullscreen .background-image {
   top: 0;
   background-position: center top;
-  background-size: auto;
   background-repeat: no-repeat;
 }
 

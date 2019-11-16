@@ -1,0 +1,21 @@
+Coffee browser
+
+Functional
+    - Встроенная быстрая temp-mail - Built-in temp-mail
+    - Встроеный adBlock - Built-in adBlock
+    - Встроеная защита от утечки dns - Built-in defend of leaks dns
+    - Встроеная защита от finger printing - Built-in defend of finger printing
+    - Передача трафика через узлы tor / i2p
+    - Кастомные настройка данных клиента - customization user data 
+    - Защита от JS - defend of JS
+    - Легкое возможность внидрения расширений - Easy to introduce extensions
+    - Открыт. исходный код софта - Open-source
+    - Встроенная совместимость с антивирус. базами - Built-in compatibility with antivirus bases
+    - Мультиплат. -  cross-platform
+    - Отсутствие заводских шпионских программ - lack of factory backdoors
+    - Возможность создавать присеты с настройками  - possibility to create presets with settings
+    - Возможность работы с разными профилями в разных вкладках - possibility to work with different profiles on different tabs
+
+Целевая аудитория: Продвинутые пользователи, журналисты, политика, пинтестеры, white hacker - target audience: advanced users, journalists, politicans, pintesters, white hackers. 
+
+Возможность выбора разного тарифного плана подписки - possibility to choose different subscription plan
